@@ -6,6 +6,7 @@ contract VotingContract {
         string name;
         uint256 voteCount;
     }
+hello
 
     address public admin;
     mapping(address => bool) public voters;
