@@ -42,8 +42,6 @@ decentralized-voting-system/
 │   │   └── index.html        # Frontend entry point
 │   └── package.json          # Frontend dependencies
 ├── .env                      # Environment variables (private keys, RPC URLs)
-├── truffle-config.js         # Truffle/Hardhat configuration (if using)
-├── hardhat.config.js         # Alternative to Truffle
-├── package.json              # Backend/dev dependencies
+
 
 
