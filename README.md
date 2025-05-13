@@ -23,3 +23,27 @@ A blockchain-based voting platform leveraging Ethereum smart contracts for secur
 - MetaMask browser extension
 - Ethereum testnet ETH (for deployment)
 
+
+decentralized-voting-system/
+├── contracts/
+│   └── Voting.sol            # Smart contract written in Solidity
+├── test/
+│   └── Voting.test.js        # Tests for the smart contract (JavaScript/Mocha)
+├── scripts/
+│   ├── deploy.js             # Script to deploy the contract (JavaScript)
+│   └── interact.js           # Script to interact with the contract (optional)
+├── frontend/
+│   ├── src/
+│   │   ├── components/       # React/Vue components (e.g., Vote.js, Results.js)
+│   │   ├── App.js            # Main frontend logic
+│   │   └── utils/
+│   │       └── contract.js   # Contract interaction logic (ethers.js/web3.js)
+│   ├── public/
+│   │   └── index.html        # Frontend entry point
+│   └── package.json          # Frontend dependencies
+├── .env                      # Environment variables (private keys, RPC URLs)
+├── truffle-config.js         # Truffle/Hardhat configuration (if using)
+├── hardhat.config.js         # Alternative to Truffle
+├── package.json              # Backend/dev dependencies
+
+
